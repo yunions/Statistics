@@ -1,0 +1,92 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "(+)기하분포&초기하분포&음이항분포.ipynb",
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyMHu4oBS/2vPxAE0j2jRbkt",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/yunions/Statistics/blob/master/add%20Geometric/Negative%20Binomial/Hypergeometric%20distribution\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "xMbw-djjYs_E"
+      },
+      "source": [
+        "# 기하분포,초기하분포,음이항분포"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "uw9XpM_EZSPX"
+      },
+      "source": [
+        "## 01. 기하분포\n",
+        "베르누이 시행에서 처음 성공할 때까지 반복한 시행횟수  \n",
+        "즉, 베르누이 시행에서 첫 성공까지의 시행횟수(한번의 성공만 포함)  \n",
+        "- 기하분포의 확률질량함수(PMF)\n",
+        "$$P(X = x) =  (1 - p)^{x-1} p \\qquad \\qquad P(X \\le x) = 1 - (1-p)^x $$  \n",
+        "- 예상치(Expectation)와 분산(Variance)\n",
+        "$$ E(X) = \\frac{1}{p} \\qquad \\qquad Var(X) = \\frac{1-p}{p^2}$$\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "nkwbygYQaYl7"
+      },
+      "source": [
+        "## 02. 음이항분포\n",
+        "x번의 독립적인 베르누이 시행 중  r 번의 성공을 포함하는 이항분포  \n",
+        "\n",
+        "$$P(X = x) =  (1 - p)^{x-1} p \\qquad \\qquad P(X \\le x) = 1 - (1-p)^x $$  \n",
+        "- 예상치(Expectation)와 분산(Variance)\n",
+        "$$ E(X) = \\frac{1}{p} \\qquad \\qquad Var(X) = \\frac{1-p}{p^2}$$\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "WQhEKcxRMaGG"
+      },
+      "source": [
+        "## 03. 초기하분포\n",
+        "N개 중 원하는 결과가 x개 있고, 이 중 n개를 **비복원추출**로 뽑았을 때, 원하는 x개가 뽑히는 경우의 분포"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "hxES7dHNYQin"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
